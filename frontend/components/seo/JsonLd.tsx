@@ -1,4 +1,4 @@
-const BASE_URL = 'https://pes-douala.cm';
+const BASE_URL = 'https://www.poledexcellence.com';
 
 export function LocalBusinessJsonLd() {
   const data = {
@@ -104,24 +104,39 @@ export function LocalBusinessJsonLd() {
 }
 
 export function WebSiteJsonLd() {
-  const data = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    '@id': `${BASE_URL}/#website`,
-    name: 'Pôle d\'Excellence Scolaire',
-    url: BASE_URL,
-    description: 'N°1 du soutien scolaire à Douala. Cours particuliers, préparation BEPC et BAC.',
-    inLanguage: ['fr-CM', 'en-CM'],
-    publisher: { '@id': `${BASE_URL}/#organization` },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/fr/blog?q={search_term_string}`,
+  const data = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': `${BASE_URL}/#website`,
+      name: 'Pôle d\'Excellence Scolaire',
+      url: BASE_URL,
+      description: 'N°1 du soutien scolaire à Douala. Cours particuliers, préparation BEPC et BAC.',
+      inLanguage: ['fr-CM', 'en-CM'],
+      publisher: { '@id': `${BASE_URL}/#organization` },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${BASE_URL}/fr/blog?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
       },
-      'query-input': 'required name=search_term_string',
     },
-  };
+    {
+      '@context': 'https://schema.org',
+      '@type': 'SiteNavigationElement',
+      name: ['Nos services', 'Inscription', 'Blog', 'À propos', 'Contact', 'Carrières'],
+      url: [
+        `${BASE_URL}/fr/services`,
+        `${BASE_URL}/fr/inscription`,
+        `${BASE_URL}/fr/blog`,
+        `${BASE_URL}/fr/a-propos`,
+        `${BASE_URL}/fr/contact`,
+        `${BASE_URL}/fr/carrieres`,
+      ],
+    },
+  ];
 
   return (
     <script

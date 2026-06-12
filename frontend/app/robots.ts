@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/*/admin/', '/api/'],
     },
-    sitemap: 'https://pes-douala.cm/sitemap.xml',
+    sitemap: 'https://www.poledexcellence.com/sitemap.xml',
   };
 }

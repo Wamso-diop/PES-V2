@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = 'https://pes-douala.cm';
+const BASE_URL = 'https://www.poledexcellence.com';
 const now = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {

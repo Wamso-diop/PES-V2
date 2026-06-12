@@ -5,7 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
 import ConditionalShell from '@/components/layout/ConditionalShell';
-import { LocalBusinessJsonLd } from '@/components/seo/JsonLd';
+import { LocalBusinessJsonLd, WebSiteJsonLd } from '@/components/seo/JsonLd';
 import '../globals.css';
 
 const inter = Inter({
@@ -20,7 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
   display: 'swap',
 });
 
-const BASE_URL = 'https://pes-douala.cm';
+const BASE_URL = 'https://www.poledexcellence.com';
 
 export async function generateMetadata({
   params: { locale },
@@ -125,6 +125,7 @@ export default async function LocaleLayout({
     <html lang={locale} className="scroll-smooth">
       <body className={`${inter.variable} ${plusJakarta.variable} font-sans antialiased bg-white text-navy-950`}>
         <LocalBusinessJsonLd />
+        <WebSiteJsonLd />
         <NextIntlClientProvider messages={messages}>
           <ConditionalShell>{children}</ConditionalShell>
         </NextIntlClientProvider>
