@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"c:\\\\Users\\\\DELL\\\\Downloads\\\\PES\\\\frontend\\\\npm-install.log\" -Wait)",
+      "Bash(Select-String -Pattern \"added|warn|error|npm notice|packages\" --SimpleMatch)"
+    ]
+  }
+}

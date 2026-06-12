@@ -1,0 +1,179 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "blog": "Blog",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "enroll": "S'inscrire",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "N°1 du soutien scolaire à Douala",
+    "title": "L'excellence scolaire,",
+    "titleAccent": "à votre portée",
+    "subtitle": "Depuis 2010, nous accompagnons les élèves du collège et du lycée vers la réussite avec des méthodes éprouvées et des enseignants passionnés.",
+    "cta": "Commencer maintenant",
+    "ctaSecondary": "Découvrir nos formules",
+    "trustBadge": "94% de taux de réussite · 500+ familles accompagnées",
+    "tagline": "L'école explique. Nous, on fait comprendre.",
+    "trustBadge1": "10 ans d'expérience",
+    "trustBadge2": "Résultats prouvés",
+    "trustBadge3": "Suivi personnalisé",
+    "since": "Depuis 2010 — Douala, Cameroun",
+    "successRateLabel": "taux de réussite",
+    "progressionLabel": "Progression",
+    "nextClassLabel": "Prochain cours",
+    "nextClassSubject": "Mathématiques",
+    "nextClassTime": "Aujourd'hui 16h00",
+    "familiesLabel": "familles accompagnées"
+  },
+  "stats": {
+    "title": "Des résultats qui parlent",
+    "students": "Élèves accompagnés",
+    "successRate": "Taux de réussite",
+    "years": "Années d'expérience",
+    "subjects": "Matières enseignées"
+  },
+  "classes": {
+    "title": "Nos formules",
+    "subtitle": "Une formule adaptée à chaque besoin et chaque budget",
+    "elite": {
+      "name": "Élite",
+      "rhythm": "3 à 4 cours / semaine",
+      "desc": "Enseignants des collèges de renom, coaching individuel intensif et ressources premium.",
+      "features": [
+        "Enseignants des collèges de renom (Libermann, De La Salle...)",
+        "Cours à domicile 3 à 4 fois par semaine",
+        "Enseignants expérimentés (5 ans+ d'expérience)",
+        "Coaching individuel avec conseiller pédagogique",
+        "Ressources pédagogiques de haute qualité",
+        "Suivi régulier des progrès de l'élève",
+        "Accès aux activités extrascolaires",
+        "Concours nationaux et internationaux",
+        "Espace de travail personnel équipé"
+      ]
+    },
+    "premium": {
+      "name": "Premium",
+      "rhythm": "3 à 4 cours / semaine",
+      "desc": "Enseignants des grands collèges de la ville, coaching en petit groupe et suivi personnalisé.",
+      "features": [
+        "Enseignants des grands collèges (LAVAL, DUVAL...)",
+        "Cours à domicile 3 à 4 fois par semaine",
+        "Enseignants expérimentés (3 à 5 ans d'expérience)",
+        "Coaching en groupe (5 élèves maximum)",
+        "Ressources pédagogiques de qualité",
+        "Suivi régulier des progrès de l'élève",
+        "Accès aux activités extrascolaires",
+        "Participation aux concours régionaux"
+      ],
+      "badge": "Le plus populaire"
+    },
+    "standard": {
+      "name": "Standard",
+      "rhythm": "2 à 3 cours / semaine",
+      "desc": "Cours à domicile réguliers avec des enseignants qualifiés et un suivi rigoureux.",
+      "features": [
+        "Cours à domicile 2 à 3 fois par semaine",
+        "Enseignants qualifiés (1 à 3 ans d'expérience)",
+        "Coaching scolaire en groupe (10 élèves max)",
+        "Ressources pédagogiques de base",
+        "Suivi régulier des progrès de l'élève"
+      ]
+    },
+    "social": {
+      "name": "Sociale",
+      "rhythm": "En centre de formation",
+      "desc": "Cours en groupe dans nos centres, tarifs adaptés à vos ressources, mêmes exigences de qualité.",
+      "features": [
+        "Cours en groupe dans un centre (10 à 20 élèves)",
+        "Enseignants qualifiés (1 à 2 ans d'expérience)",
+        "Ressources pédagogiques de base",
+        "Suivi régulier des progrès de l'élève",
+        "Activités extrascolaires à tarif réduit"
+      ]
+    },
+    "priceInfo": "Tarif communiqué lors du bilan pédagogique gratuit",
+    "cta": "Choisir cette formule"
+  },
+  "subjects": {
+    "title": "Toutes les matières",
+    "subtitle": "Nous couvrons l'intégralité du programme scolaire camerounais",
+    "categories": {
+      "hot": "Très demandé",
+      "bilingual": "Bilingue",
+      "new": "Nouveau"
+    }
+  },
+  "method": {
+    "title": "Notre méthode en 3 étapes",
+    "step1": {
+      "title": "Bilan pédagogique gratuit",
+      "desc": "Évaluation complète du niveau et des lacunes de votre enfant pour construire un plan personnalisé."
+    },
+    "step2": {
+      "title": "Plan de progression sur mesure",
+      "desc": "Un programme adapté aux objectifs, au rythme et aux examens préparés (BEPC, BAC)."
+    },
+    "step3": {
+      "title": "Suivi continu et résultats",
+      "desc": "Rapports réguliers, ajustements du programme et communication transparente avec les parents."
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos familles",
+    "subtitle": "Des témoignages authentiques de parents et d'élèves"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir sur PES",
+    "items": [
+      {
+        "q": "Comment se déroule le bilan pédagogique ?",
+        "a": "Le bilan pédagogique est une séance gratuite de 45 à 60 minutes durant laquelle l'un de nos enseignants évalue le niveau de votre enfant, identifie les lacunes et discute des objectifs. À l'issue, nous proposons la formule la plus adaptée."
+      },
+      {
+        "q": "Les cours se déroulent-ils à domicile ou dans vos locaux ?",
+        "a": "Nous proposons les deux options : cours à domicile dans tout Douala, ou dans nos espaces d'études à Bonanjo. Le choix dépend de vos préférences et de la formule choisie."
+      },
+      {
+        "q": "Quels niveaux scolaires acceptez-vous ?",
+        "a": "Nous accompagnons les élèves du CM2 jusqu'en Terminale (Générale et Technique), avec une spécialisation sur la préparation au BEPC et au BAC."
+      },
+      {
+        "q": "Comment sont sélectionnés vos enseignants ?",
+        "a": "Tous nos enseignants sont diplômés (bac+3 minimum), formés à nos méthodes pédagogiques et soumis à une évaluation continue. Nous n'acceptons que les meilleurs."
+      },
+      {
+        "q": "Y a-t-il un engagement de durée ?",
+        "a": "Non. Nos formules sont sans engagement. Vous pouvez ajuster ou suspendre votre abonnement à tout moment, en respectant un préavis de 15 jours."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à transformer les résultats de votre enfant ?",
+    "subtitle": "Rejoignez les 500+ familles qui nous font confiance. Bilan gratuit sans engagement.",
+    "button": "Réserver un bilan gratuit",
+    "whatsapp": "Discuter sur WhatsApp"
+  },
+  "footer": {
+    "tagline": "L'excellence scolaire pour tous, depuis 2010.",
+    "rights": "Tous droits réservés.",
+    "links": {
+      "title": "Navigation",
+      "legal": "Mentions légales",
+      "privacy": "Confidentialité"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Bonanjo, Douala, Cameroun",
+      "phone": "+237 6XX XXX XXX",
+      "email": "contact@pes-douala.cm"
+    },
+    "social": {
+      "title": "Réseaux sociaux"
+    }
+  }
+}

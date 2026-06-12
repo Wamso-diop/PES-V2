@@ -1,0 +1,179 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact",
+    "enroll": "Enroll",
+    "admin": "Admin"
+  },
+  "hero": {
+    "badge": "#1 Tutoring Center in Douala",
+    "title": "Academic excellence,",
+    "titleAccent": "within reach",
+    "subtitle": "Since 2010, we have been guiding middle and high school students to success with proven methods and passionate teachers.",
+    "cta": "Get started",
+    "ctaSecondary": "Explore our plans",
+    "trustBadge": "94% success rate · 500+ families served",
+    "tagline": "School explains. We make it click.",
+    "trustBadge1": "10 years of experience",
+    "trustBadge2": "Proven results",
+    "trustBadge3": "Personalized support",
+    "since": "Since 2010 — Douala, Cameroon",
+    "successRateLabel": "success rate",
+    "progressionLabel": "Progress",
+    "nextClassLabel": "Next class",
+    "nextClassSubject": "Mathematics",
+    "nextClassTime": "Today at 4:00 PM",
+    "familiesLabel": "families served"
+  },
+  "stats": {
+    "title": "Results that speak for themselves",
+    "students": "Students supported",
+    "successRate": "Success rate",
+    "years": "Years of experience",
+    "subjects": "Subjects taught"
+  },
+  "classes": {
+    "title": "Our Plans",
+    "subtitle": "A plan tailored to every need and every budget",
+    "elite": {
+      "name": "Elite",
+      "rhythm": "3 to 4 sessions / week",
+      "desc": "Teachers from renowned schools, intensive individual coaching and premium resources.",
+      "features": [
+        "Teachers from renowned schools (Libermann, De La Salle...)",
+        "Home tutoring 3 to 4 times per week",
+        "Experienced teachers (5+ years of experience)",
+        "Individual coaching with a pedagogical advisor",
+        "High-quality teaching resources",
+        "Regular progress monitoring",
+        "Access to extracurricular activities",
+        "National and international competitions",
+        "Personal workspace with top equipment"
+      ]
+    },
+    "premium": {
+      "name": "Premium",
+      "rhythm": "3 to 4 sessions / week",
+      "desc": "Teachers from top city schools, small-group coaching and personalized follow-up.",
+      "features": [
+        "Teachers from top schools (LAVAL, DUVAL...)",
+        "Home tutoring 3 to 4 times per week",
+        "Experienced teachers (3 to 5 years of experience)",
+        "Group coaching (5 students maximum)",
+        "Quality teaching resources",
+        "Regular progress monitoring",
+        "Access to extracurricular activities",
+        "Participation in regional competitions"
+      ],
+      "badge": "Most popular"
+    },
+    "standard": {
+      "name": "Standard",
+      "rhythm": "2 to 3 sessions / week",
+      "desc": "Regular home tutoring with qualified teachers and rigorous follow-up.",
+      "features": [
+        "Home tutoring 2 to 3 times per week",
+        "Qualified teachers (1 to 3 years of experience)",
+        "Group coaching (10 students maximum)",
+        "Basic teaching resources",
+        "Regular progress monitoring"
+      ]
+    },
+    "social": {
+      "name": "Social",
+      "rhythm": "At our training centers",
+      "desc": "Group classes at our centers, pricing adapted to your resources, same quality standards.",
+      "features": [
+        "Group classes at a center (10 to 20 students)",
+        "Qualified teachers (1 to 2 years of experience)",
+        "Basic teaching resources",
+        "Regular progress monitoring",
+        "Extracurricular activities at reduced rates"
+      ]
+    },
+    "priceInfo": "Pricing communicated during the free educational assessment",
+    "cta": "Choose this plan"
+  },
+  "subjects": {
+    "title": "All subjects",
+    "subtitle": "We cover the entire Cameroonian school curriculum",
+    "categories": {
+      "hot": "Most requested",
+      "bilingual": "Bilingual",
+      "new": "New"
+    }
+  },
+  "method": {
+    "title": "Our 3-step method",
+    "step1": {
+      "title": "Free educational assessment",
+      "desc": "Complete evaluation of your child's level and gaps to build a personalized plan."
+    },
+    "step2": {
+      "title": "Custom progression plan",
+      "desc": "A program tailored to goals, pace, and target exams (BEPC, BAC)."
+    },
+    "step3": {
+      "title": "Continuous monitoring & results",
+      "desc": "Regular reports, program adjustments, and transparent communication with parents."
+    }
+  },
+  "testimonials": {
+    "title": "What our families say",
+    "subtitle": "Authentic testimonials from parents and students"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know about PES",
+    "items": [
+      {
+        "q": "How does the educational assessment work?",
+        "a": "The assessment is a free 45-60 minute session where one of our teachers evaluates your child's level, identifies gaps, and discusses objectives. Afterward, we propose the most suitable plan."
+      },
+      {
+        "q": "Are lessons at home or at your center?",
+        "a": "We offer both options: home tutoring throughout Douala, or at our study spaces in Bonanjo. The choice depends on your preferences and selected plan."
+      },
+      {
+        "q": "What school levels do you accept?",
+        "a": "We support students from CM2 through Terminale (General and Technical), with specialization in BEPC and BAC preparation."
+      },
+      {
+        "q": "How are your teachers selected?",
+        "a": "All our teachers hold at least a bachelor's degree, are trained in our pedagogical methods, and undergo continuous evaluation. We only accept the best."
+      },
+      {
+        "q": "Is there a commitment period?",
+        "a": "No. Our plans are commitment-free. You can adjust or suspend your subscription at any time with 15 days' notice."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to transform your child's results?",
+    "subtitle": "Join 500+ families who trust us. Free assessment, no commitment.",
+    "button": "Book a free assessment",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Academic excellence for all, since 2010.",
+    "rights": "All rights reserved.",
+    "links": {
+      "title": "Navigation",
+      "legal": "Legal notice",
+      "privacy": "Privacy policy"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Bonanjo, Douala, Cameroon",
+      "phone": "+237 6XX XXX XXX",
+      "email": "contact@pes-douala.cm"
+    },
+    "social": {
+      "title": "Social media"
+    }
+  }
+}
