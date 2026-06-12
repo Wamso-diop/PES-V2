@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -185,8 +185,12 @@ const TRUST_STATS = [
 
 /* ─── Page ─────────────────────────────────────────────────── */
 
-export default async function ServicesPage() {
-  const locale = await getLocale();
+export default async function ServicesPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
 
   return (
     <div className="pt-[72px]">

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from '@/i18n';
 import ConditionalShell from '@/components/layout/ConditionalShell';
@@ -116,6 +116,8 @@ export default async function LocaleLayout({
   params: { locale: string };
 }) {
   if (!locales.includes(locale as 'fr' | 'en')) notFound();
+
+  setRequestLocale(locale);
 
   const messages = await getMessages();
 

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
 import {
@@ -128,8 +128,12 @@ const STATS = [
 
 /* ─── Page ─── */
 
-export default async function AboutPage() {
-  const locale = await getLocale();
+export default async function AboutPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
 
   return (
     <div className="pt-[72px]">
