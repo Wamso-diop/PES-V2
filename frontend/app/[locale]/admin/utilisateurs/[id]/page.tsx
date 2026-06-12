@@ -404,15 +404,17 @@ export default function InscriptionDetailPage() {
               Récapitulatif
             </h3>
             <dl className="space-y-3">
-              {[
-                ins.matricule ? { label: 'Matricule',       value: ins.matricule } : null,
-                { label: 'Nom complet',      value: `${ins.prenom} ${ins.nom}` },
-                { label: 'Email',            value: ins.email },
-                { label: 'Téléphone',        value: ins.telephone },
-                { label: 'Niveau élève',     value: ins.niveau_eleve },
-                { label: 'Classe souhaitée', value: ins.classe_souhaitee || 'Non précisée' },
-                { label: 'Date inscription', value: fmtDate(ins.created_at) },
-              ].filter(Boolean).map(({ label, value }) => (
+              {(
+                [
+                  ins.matricule ? { label: 'Matricule',       value: ins.matricule } : null,
+                  { label: 'Nom complet',      value: `${ins.prenom} ${ins.nom}` },
+                  { label: 'Email',            value: ins.email },
+                  { label: 'Téléphone',        value: ins.telephone },
+                  { label: 'Niveau élève',     value: ins.niveau_eleve },
+                  { label: 'Classe souhaitée', value: ins.classe_souhaitee || 'Non précisée' },
+                  { label: 'Date inscription', value: fmtDate(ins.created_at) },
+                ] as { label: string; value: string }[]
+              ).filter(Boolean).map(({ label, value }) => (
                 <div key={label} className="flex items-start justify-between gap-3">
                   <dt className="text-[11px] font-bold text-slate-400 uppercase tracking-wide flex-shrink-0 w-32">{label}</dt>
                   <dd className="text-xs font-semibold text-slate-700 text-right">{value}</dd>

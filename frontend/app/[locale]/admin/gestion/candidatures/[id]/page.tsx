@@ -584,15 +584,17 @@ export default function CandidatureDetailPage() {
               Récapitulatif
             </h3>
             <dl className="space-y-3">
-              {[
-                cand.matricule ? { label: 'Matricule',     value: cand.matricule } : null,
-                { label: 'Nom complet',    value: `${cand.prenom} ${cand.nom}` },
-                { label: 'Email',          value: cand.email },
-                { label: 'Téléphone',      value: cand.telephone },
-                { label: 'Poste visé',     value: cand.poste_vise },
-                { label: 'Expérience',     value: cand.annees_experience },
-                { label: 'Date dépôt',     value: fmtDate(cand.created_at) },
-              ].filter(Boolean).map(({ label, value }) => (
+              {(
+                [
+                  cand.matricule ? { label: 'Matricule',     value: cand.matricule } : null,
+                  { label: 'Nom complet',    value: `${cand.prenom} ${cand.nom}` },
+                  { label: 'Email',          value: cand.email },
+                  { label: 'Téléphone',      value: cand.telephone },
+                  { label: 'Poste visé',     value: cand.poste_vise },
+                  { label: 'Expérience',     value: cand.annees_experience },
+                  { label: 'Date dépôt',     value: fmtDate(cand.created_at) },
+                ] as { label: string; value: string }[]
+              ).filter(Boolean).map(({ label, value }) => (
                 <div key={label} className="flex items-start justify-between gap-3">
                   <dt className="text-[11px] font-bold text-slate-400 uppercase tracking-wide flex-shrink-0 w-28">{label}</dt>
                   <dd className="text-xs font-semibold text-slate-700 text-right">{value}</dd>
