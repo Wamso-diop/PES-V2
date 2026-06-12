@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 1440
     resend_api_key: str = ""
     admin_email: str = "admin@pes-douala.cm"
-    cors_origins: str = "http://localhost:3000"
+    cors_origins: str = "http://localhost:3000,https://pes-v2.vercel.app,https://pes-v2-o1qq.vercel.app,https://pes-douala.cm"
     admin_invite_code: str = "PES-ADMIN-2026"
 
     @property
