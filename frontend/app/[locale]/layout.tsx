@@ -98,7 +98,7 @@ export async function generateMetadata({
       apple: '/images/logo-pes.png',
     },
     verification: {
-      google: 'GOOGLE_SEARCH_CONSOLE_KEY',
+      google: 'YcQvf52g6vE7z29NYbN7lDLmIzMew64_XsW8Cv5A4x0',
     },
     category: 'education',
   };
