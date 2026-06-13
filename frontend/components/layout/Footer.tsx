@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
-import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Youtube } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -36,17 +36,14 @@ export default function Footer() {
             </Link>
             <p className="text-white/60 text-sm leading-relaxed">{t('tagline')}</p>
             <div className="flex items-center gap-3 mt-6">
-              <a href="https://www.facebook.com/share/1DCSYahXTs/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
+              <a href="#" aria-label="Facebook" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="https://www.instagram.com/p/DYt-ENkODMz/?igsh=MWJmOXVsd2ppamJwYw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
+              <a href="#" aria-label="Instagram" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="https://www.linkedin.com/posts/chers-parents-cest-avec-une-immense-fiert%C3%A9-share-7466032226288349184-n27S/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="https://wa.me/237690041633" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
-                <MessageCircle className="w-4 h-4" />
+              <a href="#" aria-label="YouTube" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-500 hover:text-navy-950 transition-all text-white/70">
+                <Youtube className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -93,29 +90,21 @@ export default function Footer() {
 
           {/* CTA block */}
           <div>
-            <h3 className="font-semibold text-sm text-white/40 uppercase tracking-wider mb-4">Rejoindre PES</h3>
-            <p className="text-white/60 text-sm mb-4">Parent ou enseignant, rejoignez la plateforme dès aujourd&apos;hui.</p>
-            <div className="flex flex-col gap-2">
-              <Link
-                href={`/${locale}/inscription`}
-                className="inline-flex items-center gap-2 bg-gold-gradient text-navy-950 font-semibold text-sm px-5 py-2.5 rounded-full hover:scale-105 transition-transform shadow-gold"
-              >
-                Je suis parent
-              </Link>
-              <Link
-                href={`/${locale}/carrieres`}
-                className="inline-flex items-center gap-2 bg-white/10 text-white font-semibold text-sm px-5 py-2.5 rounded-full hover:bg-white/20 transition-all"
-              >
-                Je suis enseignant
-              </Link>
-            </div>
+            <h3 className="font-semibold text-sm text-white/40 uppercase tracking-wider mb-4">Bilan gratuit</h3>
+            <p className="text-white/60 text-sm mb-4">Obtenez une évaluation pédagogique gratuite sans engagement.</p>
+            <Link
+              href={`/${locale}/contact`}
+              className="inline-flex items-center gap-2 bg-gold-gradient text-navy-950 font-semibold text-sm px-5 py-2.5 rounded-full hover:scale-105 transition-transform shadow-gold"
+            >
+              Réserver
+            </Link>
           </div>
         </div>
 
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-white/40 text-xs">
-            © {new Date().getFullYear()} Pôle d&apos;Excellence Scolaire. {t('rights')}
+            © {new Date().getFullYear()} Pôle d'Excellence Scolaire. {t('rights')}
           </p>
           <div className="flex items-center gap-4">
             <Link href={`/${locale}/legal`} className="text-white/40 hover:text-white/70 text-xs transition-colors">
@@ -123,12 +112,6 @@ export default function Footer() {
             </Link>
             <Link href={`/${locale}/privacy`} className="text-white/40 hover:text-white/70 text-xs transition-colors">
               {t('links.privacy')}
-            </Link>
-            <span className="text-white/10 text-xs">·</span>
-            <Link href={`/${locale}/admin`}
-              className="text-white/20 hover:text-white/50 text-xs transition-colors"
-              title="Espace Administration">
-              Admin
             </Link>
           </div>
         </div>
